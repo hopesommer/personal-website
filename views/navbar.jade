@@ -1,0 +1,21 @@
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary-custom.fixed-top
+  a.navbar-brand-custom.bold(href='#') 
+    h3.navbar-header 
+      | HS
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarColor01', aria-controls='navbarColor01', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarColor01.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto
+      //- li.nav-item.active
+      //-   a.nav-link(href='#')
+      //-     | Home 
+      //-     span.sr-only (current)
+      li.nav-item
+        a.nav-link(href='#') About
+      li.nav-item
+        a.nav-link(href='#') Gallery
+      li.nav-item
+        a.nav-link(href='#') Pricing
+    form.form-inline.my-2.my-lg-0
+      input.form-control.mr-sm-2(type='text', placeholder='Search')
+      button.btn.btn-secondary-custom.my-2.my-sm-0(type='submit') Search

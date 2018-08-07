@@ -1,0 +1,101 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.custom-container {
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 97px;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.span-1 {
+  color: #c2185b;
+}
+
+.span-2 {
+  color: #ff6f00;
+}
+
+.fab {
+  font-size: 40px;
+}
+
+.fab:hover {
+  color: #ff6f00;
+}
+
+.social-media-icons {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.accordion-toggle {
+  margin-top: 30px;
+}
+
+.card-text {
+  color: #ff6f00;
+}
+
+.btn-primary-custom {
+  color: #fff;
+  background-color: #ff8a65;
+}
+
+.bg-primary-custom {
+  background-color: #ff8a65;
+}
+
+.btn-secondary-custom {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff8a65;
+}
+
+.navbar-brand-custom {
+  margin-right: 2rem;
+  margin-left: 15px;
+}
+
+.navbar-header {
+  color: #c2185b;
+  font-family: "Kirang Haerang", cursive;
+}
+
+.nav-item {
+  font-size: 14px;
+}
+
+.wrapper:hover .fa-stack {
+  color: red;
+  transition: 0.9s;
+  transform: rotateY(180deg);
+}
+.wrapper {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid red;
+  overflow: hidden;
+  text-align: center;
+}
+
+.sm-icon {
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s eas-out;
+  transition: 0.6s ease-out;
+}
+
+.sm-icon:hover {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+}
